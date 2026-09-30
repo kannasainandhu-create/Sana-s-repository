@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+header {
+  background: #202938;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+.container { max-width: 700px; margin: 30px auto; padding: 15px; }
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+}
+label { display: block; margin-top: 15px; font-weight: bold; }
+select, input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+}
+.summary {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eef4ff;
+  border-radius: 8px;
+  line-height: 1.8;
+}

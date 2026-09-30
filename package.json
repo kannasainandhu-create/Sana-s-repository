@@ -1,0 +1,12 @@
+{
+  "name": "function-hall-node-service",
+  "version": "1.0.0",
+  "description": "Supporting Node.js service for Function Hall Booking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
